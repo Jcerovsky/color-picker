@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}    
+
+.nav__input {
+    width: 55px;
+    height: 40px;
+    border: 1px solid black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+#nav__dropdown,
+.nav__button {
+    border: 0.1px solid grey;
+    border-radius: 5px;
+}
+
+#nav__dropdown {
+    padding: 5px;
+    width: 50%;
+    
+}
+
+
+.nav__button {
+    padding: 9px;
+    font-size: 0.7em;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(70px, 1fr));
+    grid-template-rows: auto 1fr;
+}
+.colors > div {
+    /* background-color: blue; */
+    height: 80vh;
+}
+
+.color-text {
+    text-align: center;
+}
+
+.color-1 {
+    background-color: #F55A5A;
+}
+
+.color-2 {
+    background-color: #2B283A;
+}
+.color-3 {
+    background-color: #FBF3AB;
+}
+.color-4 {
+    background-color: #AAD1B6;
+}
+.color-5 {
+    background-color: #A626D3;
+}
